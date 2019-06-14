@@ -2,10 +2,8 @@
 
 ![Balrog Green](https://user-images.githubusercontent.com/32128719/59428078-34cdda80-8dd4-11e9-8a5d-50712c075d24.png)
 
-### circle Badge
 [![CircleCI](https://circleci.com/gh/pixielabs/balrog-auth.svg?style=svg)](https://circleci.com/gh/pixielabs/balrog-auth)
-
-### NPM Badge
+[![npm version](https://badge.fury.io/js/balrog-auth.svg)](https://badge.fury.io/js/balrog-auth)
 
 Balrog-auth is a lightweight authorization library for Express >= 4 written by
 [Pixie Labs](https://pixielabs.io) that can protect your routes with password.
