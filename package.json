@@ -1,0 +1,26 @@
+{
+  "name": "balrog-auth",
+  "version": "0.1.0",
+  "description": "Balrog is a lightweight authorization library for Node apps that can protect your routes with a single username & password combination.",
+  "main": "./balrog.js",
+  "scripts": {
+    "start": "cd dummy_app && node index.js",
+    "test": "cd dummy_app && npx cypress run"
+  },
+  "author": "Pixie Labs",
+  "license": "MIT",
+  "files": [
+    "balrog.js",
+    "tasks",
+    "views"
+  ],
+  "bin": {
+    "initialize": "./tasks/create_config.js",
+    "generateHash": "./tasks/generate_hash.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express-session": "^1.16.1"
+  }
+}
