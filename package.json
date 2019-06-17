@@ -2,6 +2,20 @@
   "name": "balrog-auth",
   "version": "0.1.0",
   "description": "Balrog is a lightweight authorization library for Node apps that can protect your routes with a single username & password combination.",
+  "keywords": [
+    "express",
+    "authentication",
+    "basic auth",
+    "security"
+  ],
+  "homepage": "https://github.com/pixielabs/balrog-auth#README.md",
+  "bugs": {
+    "url": "https://github.com/pixielabs/balrog-auth/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixielabs/balrog-auth.git"
+  },
   "main": "./balrog.js",
   "scripts": {
     "start": "cd dummy_app && node index.js",
