@@ -1,6 +1,6 @@
 {
   "name": "balrog-auth",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Balrog is a lightweight authorization library for Node apps that can protect your routes with a single username & password combination.",
   "keywords": [
     "express",
