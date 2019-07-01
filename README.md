@@ -28,7 +28,7 @@ $ npm i -S balrog-auth
 Run the installer to generate an initializer:
 
 ```shell
-$ npx balrog initialize
+$ npx balrog-initialize
 Enter New Password: secret-passord
 Confirm New Password: secret-password
 "Balrog configured!"
@@ -41,7 +41,7 @@ If you need to create a new password, modify the object in balrog_config.js.
 You can generate a new hash with the provided npx command:
 
 ```
-$ npx balrog generateHash
+$ npx balrog-generateHash
 New password: secret-password
 Confirm New Password: secret-password
 
@@ -126,4 +126,4 @@ Before contributing, please read the [code of conduct](CODE_OF_CONDUCT.md).
 
  * Test coverage
  * Expire sessions
- * Hide user input during `npx balrog initialize`
+ * Hide user input during `npx balrog-initialize`

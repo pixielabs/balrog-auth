@@ -2,7 +2,7 @@
 
 // This is a shell script used to encrypt a password and
 // create a Balrog Config file.
-// USAGE: `npx balrog initialize`
+// USAGE: `npx balrog-initialize`
 
 const fs = require("fs");
 const getPassword = require('./get_password.js');
